@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.1.3</Version>
+  <BaseControlType />
+  <KBSpecific>false</KBSpecific>
+  <DataSourceAllowed>None</DataSourceAllowed>
+  <CustomDataSources />
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <DefinitionDirectory>C:\Program Files (x86)\GeneXus\GeneXus16\UserControls\NFeA3</DefinitionDirectory>
+  <IncludeInControlInfo>true</IncludeInControlInfo>
+  <IsEditable>false</IsEditable>
+  <SupportFiles />
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>NFeA3Render.js</RuntimeRender>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <ResizeSupported>true</ResizeSupported>
+  <Description>NFeA3</Description>
+  <OldDescriptions />
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>NFeA3</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles />
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>NFeA3</Name>
+  </Constructor>
+  <PropertiesDefinition>NFeA3Properties.xml</PropertiesDefinition>
+  <ObjClass>NFeA3</ObjClass>
+  <DesignRender>NFeA3Render.xsl</DesignRender>
+  <PlatformDefault>0</PlatformDefault>
+  <iOS_PlatformDefault>0</iOS_PlatformDefault>
+  <Android_PlatformDefault>0</Android_PlatformDefault>
+  <ControlType />
+  <Categories>
+    <Category>Knet App</Category>
+  </Categories>
+    <Events>
+    <Event>onComplete</Event>
+    <Event>onError</Event>
+    <Event>onInitialize</Event>
+  </Events>
+  <Methods>
+    <Method> 
+      <ReturnType>Character</ReturnType>
+      <Parameters>
+        <Parameter>NFeA3Transmitir</Parameter>
+      </Parameters>
+      <Signature>Transmitir(NFeA3Transmitir:NFeA3Transmitir)</Signature>
+      <Name>Transmitir</Name>
+      <Namespace />
+      <FullName>Transmitir</FullName>
+    </Method>
+    <Method>
+      <ReturnType>Character</ReturnType>
+      <Parameters>
+        <Parameter>NFeA3Cancelar</Parameter>
+      </Parameters>
+      <Signature>Cancelar(NFeA3Cancelar:NFeA3Cancelar)</Signature>
+      <Name>Cancelar</Name>
+      <Namespace />
+      <FullName>Cancelar</FullName>
+    </Method>
+    <Method>
+      <ReturnType>Character</ReturnType>
+      <Parameters>
+        <Parameter>NFeA3Validar</Parameter>
+      </Parameters>
+      <Signature>Validar(NFeA3Validar:NFeA3Validar)</Signature>
+      <Name>Validar</Name>
+      <Namespace />
+      <FullName>Validar</FullName>
+    </Method>
+        <Method>
+      <ReturnType>Character</ReturnType>
+      <Parameters>
+        <Parameter>NFeA3CartaCorrecao</Parameter>
+      </Parameters>
+      <Signature>CartaCorrecao(NFeA3CartaCorrecao:NFeA3CartaCorrecao)</Signature>
+      <Name>CartaCorrecao</Name>
+      <Namespace />
+      <FullName>CartaCorrecao</FullName>
+    </Method>
+    <Method> 
+      <ReturnType>Character</ReturnType>
+      <Parameters>
+        <Parameter>NFeA3Inutilizar</Parameter>
+      </Parameters>
+      <Signature>Inutilizar(NFeA3Inutilizar:NFeA3Inutilizar)</Signature>
+      <Name>Inutilizar</Name>
+      <Namespace />
+      <FullName>Inutilizar</FullName>
+    </Method>
+    <Method> 
+      <ReturnType>Character</ReturnType>
+      <Parameters>
+        <Parameter>NFeA3Consultar</Parameter>
+      </Parameters>
+      <Signature>ConsultaNota(NFeA3Consultar:NFeA3Consultar)</Signature>
+      <Name>ConsultaNota</Name>
+      <Namespace />
+      <FullName>ConsultaNota</FullName>
+    </Method> 
+    <Method>
+      <ReturnType />
+      <Parameters />
+      <Signature>Upgrade()</Signature>
+      <Name>Upgrade</Name>
+      <Namespace />
+      <FullName>Upgrade</FullName>
+    </Method>    
+    <Method>
+      <ReturnType>boolean</ReturnType>
+      <Parameters />
+      <Signature>ExtensionInstall</Signature>
+      <Name>ExtensionInstall</Name>
+      <Namespace />
+      <FullName>ExtensionInstall</FullName>
+    </Method>
+    <Method>
+      <ReturnType>Boolean</ReturnType>
+      <Parameters />
+      <Signature>ExtensionInstaled</Signature>
+      <Name>ExtensionInstaled</Name>
+      <Namespace />
+      <FullName>ExtensionInstaled</FullName>
+    </Method>
+  </Methods>
+  <Actions />
+  <IsPublic>true</IsPublic>
+  <Android_IsScrollable>false</Android_IsScrollable>
+  <LastLoad>0001-01-01T00:00:00</LastLoad>
+</ControlDefinition>
